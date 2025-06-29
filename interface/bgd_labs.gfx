@@ -1,0 +1,64 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_gui_apg_logo"
+		texturefile = "gfx\interface\BGD\apg_icon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_chimera_logo"
+		texturefile = "gfx\interface\BGD\chimera_icon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_apg_small_logo"
+		texturefile = "gfx\interface\BGD\apg_logo.png"
+	}
+	spriteType = {
+		name = "GFX_gui_chimera_small_logo"
+		texturefile = "gfx\interface\BGD\chimera_logo.png"
+	}
+	spriteType = {
+		name = "GFX_gui_labs_offical_frame"
+		texturefile = "gfx\interface\BGD\labs_offical_frame.png"
+	}
+	#RAS
+	spriteType = {
+		name = "GFX_gui_chu2_icon"
+		texturefile = "gfx\interface\BGD\ras_lab\chuicon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_layer_icon"
+		texturefile = "gfx\interface\BGD\ras_lab\layericon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_lock_icon"
+		texturefile = "gfx\interface\BGD\ras_lab\lockicon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_masking_icon"
+		texturefile = "gfx\interface\BGD\ras_lab\maskingicon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_pareo_icon"
+		texturefile = "gfx\interface\BGD\ras_lab\pareoicon.png"
+	}
+	#Roselia
+	spriteType = {
+		name = "GFX_gui_ykn_icon"
+		texturefile = "gfx\interface\BGD\roselia_lab\ykn_icon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_sayo_icon"
+		texturefile = "gfx\interface\BGD\roselia_lab\sayo_icon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_rinko_icon"
+		texturefile = "gfx\interface\BGD\roselia_lab\rinko_icon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_lisa_icon"
+		texturefile = "gfx\interface\BGD\roselia_lab\lisa_icon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_ako_icon"
+		texturefile = "gfx\interface\BGD\roselia_lab\ako_icon.png"
+	}
+}

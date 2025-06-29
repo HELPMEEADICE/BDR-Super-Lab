@@ -1,0 +1,98 @@
+scripted_gui = {
+	bgd_lab_guis = {
+		context_type = decision_category
+		window_name = "bgd_lab_guis"
+		effects = {
+			choose_roselia_click = {
+				set_variable = {
+					lab_window_show_var = 0
+				}
+			}
+			choose_ras_click = {
+				set_variable = {
+					lab_window_show_var = 1
+				}
+			}
+		}
+
+		triggers = {
+			roselia_lab_window_visible = {
+				check_variable = {
+					lab_window_show_var = 0
+				}
+			}
+			ras_lab_window_visible = {
+				check_variable = {
+					lab_window_show_var = 1
+				}
+			}
+			large_logo1_visible = {
+    		    check_variable = {
+    		        lab_window_show_var = 0
+    		    }
+    		}
+    		large_logo2_visible = {
+    		    check_variable = {
+    		        lab_window_show_var = 1
+    		    }
+    		}
+
+			#offical_window_ras_visible = {
+			#	check_variable = {
+			#		lab_window_show_var = 1
+			#	}
+			#}
+			offical_icon_chu_visible = {
+				check_variable = {
+					lab_window_show_var = 1
+				}
+			}
+			offical_icon_layer_visible = {
+				check_variable = {
+					lab_window_show_var = 1
+				}
+			}
+			offical_icon_lock_visible = {
+				check_variable = {
+					lab_window_show_var = 1
+				}
+			}
+			offical_icon_masking_visible = {
+				check_variable = {
+					lab_window_show_var = 1
+				}
+			}
+			offical_icon_pareo_visible = {
+				check_variable = {
+					lab_window_show_var = 1
+				}
+			}
+
+			offical_icon_ykn_visible = {
+				check_variable = {
+					lab_window_show_var = 0
+				}
+			}
+			offical_icon_lisa_visible = {
+				check_variable = {
+					lab_window_show_var = 0
+				}
+			}
+			offical_icon_sayo_visible = {
+				check_variable = {
+					lab_window_show_var = 0
+				}
+			}
+			offical_icon_rinko_visible = {
+				check_variable = {
+					lab_window_show_var = 0
+				}
+			}
+			offical_icon_ako_visible = {
+				check_variable = {
+					lab_window_show_var = 0
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+decisions_BGD_lab = {
+	priority = 100
+	icon = GFX_gui_ppp_party_small
+	
+	
+	visible = {
+		has_country_flag = super_lab
+	}
+	
+	scripted_gui = bgd_lab_guis
+}

@@ -16,4 +16,50 @@ decisions_BGD_lab = {
 		complete_effect = {
 			}
 	}
+
+	BGD_R_Shirakami = {
+		icon = GFX_Banned_Moderates
+		name = BGD_R_Shirakami
+		fire_only_once = yes
+		allowed = {
+			has_country_flag = super_lab
+		}
+		visible = {
+			has_country_flag = super_lab
+			check_variable = {
+				lab_window_show_var = 0
+			}
+		}
+		available = {
+			has_country_flag = super_lab
+		}
+		complete_effect = {
+			country_event = {
+				id = bdrlabs.2
+			}
+		}
+	}
+
+	BGD_RAS_Genesis_Wing = {
+		icon = GFX_Banned_Moderates
+		name = BGD_RAS_Genesis_Wing
+		fire_only_once = yes
+		allowed = {
+			has_country_flag = super_lab
+		}
+		visible = {
+			has_country_flag = super_lab
+			check_variable = {
+				lab_window_show_var = 1
+			}
+		}
+		available = {
+			has_country_flag = super_lab
+		}
+		complete_effect = {
+			country_event = {
+				id = bdrlabs.1
+			}
+		}
+	}
 }

@@ -1,0 +1,39 @@
+add_namespace = bdrlabs
+
+country_event = {
+	id = bdrlabs.0
+	title = bdrlabs.0.t
+	desc = bdrlabs.0.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	option = {
+		name = bdrlabs.0.a
+		set_country_flag = super_lab
+	}
+}
+
+country_event = {
+	id = bdrlabs.1
+	title = bdrlabs.1.t
+	desc = bdrlabs.1.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	option = {
+		name = bdrlabs.1.a
+		add_stability = 5
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	id = bdrlabs.2
+	title = bdrlabs.2.t
+	desc = bdrlabs.2.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	option = {
+		name = bdrlabs.2.a
+		add_stability = 5
+		add_political_power = 25
+	}
+}

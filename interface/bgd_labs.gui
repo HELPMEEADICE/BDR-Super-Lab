@@ -13,15 +13,37 @@ guiTypes = {
 			name = "labs_offical_frame"
 			spriteType = "GFX_gui_labs_offical_frame"
 			position = {
-				x = -15
-				y = 230
+				x = 4
+				y = 242
+			}
+			#scale = 0.95
+		}
+		containerWindowType = {
+			name = "labs_desc"
+			position = {
+				x = 5
+				y = 115
+			}
+			instantTextBoxType = {
+				name = "roselia_lab_desc"
+				maxwidth = 490
+				maxheight = 128
+				text = "roselia_lab_desc"
+				font = "VCR02_12"
+			}
+			instantTextBoxType = {
+				name = "ras_lab_desc"
+				maxwidth = 490
+				maxheight = 128
+				text = "ras_lab_desc"
+				font = "VCR02_12"
 			}
 		}
 		containerWindowType = {
 			name = "choose_button_window"
 			position = {
 				x = 0
-				y = 470
+				y = 485
 			}
 			buttonType = {
 				name = "choose_roselia"
@@ -91,6 +113,8 @@ guiTypes = {
 					name = "offical_icon_chu"
 					spriteType = "GFX_gui_chu2_icon"
 					scale = 0.45
+					pdx_tooltip = "chu_text"
+					pdx_tooltip_delayed = "chu_text_desc"
 				}
 				iconType = {
 					name = "offical_icon_layer"
@@ -100,6 +124,8 @@ guiTypes = {
 						y = 140
 					}
 					scale = 0.45
+					pdx_tooltip = "layer_text"
+					pdx_tooltip_delayed = "layer_text_desc"
 				}
 				iconType = {
 					name = "offical_icon_lock"
@@ -109,6 +135,8 @@ guiTypes = {
 						y = 280
 					}
 					scale = 0.45
+					pdx_tooltip = "lock_text"
+					pdx_tooltip_delayed = "lock_text_desc"
 				}
 				iconType = {
 					name = "offical_icon_masking"
@@ -118,6 +146,8 @@ guiTypes = {
 						y = 420
 					}
 					scale = 0.45
+					pdx_tooltip = "masking_text"
+					pdx_tooltip_delayed = "masking_text_desc"
 				}
 				iconType = {
 					name = "offical_icon_pareo"
@@ -127,12 +157,16 @@ guiTypes = {
 						y = 560
 					}
 					scale = 0.45
+					pdx_tooltip = "pareo_text"
+					pdx_tooltip_delayed = "pareo_text_desc"
 				}
 
 				iconType = {
 					name = "offical_icon_ykn"
 					spriteType = "GFX_gui_ykn_icon"
 					scale = 0.45
+					pdx_tooltip = "ykn_text"
+					pdx_tooltip_delayed = "ykn_text_desc"
 				}
 				iconType = {
 					name = "offical_icon_lisa"
@@ -142,6 +176,8 @@ guiTypes = {
 						y = 140
 					}
 					scale = 0.45
+					pdx_tooltip = "lisa_text"
+					pdx_tooltip_delayed = "lisa_text_desc"
 				}
 				iconType = {
 					name = "offical_icon_sayo"
@@ -151,6 +187,8 @@ guiTypes = {
 						y = 280
 					}
 					scale = 0.45
+					pdx_tooltip = "sayo_text"
+					pdx_tooltip_delayed = "lock_text_desc"
 				}
 				iconType = {
 					name = "offical_icon_rinko"
@@ -160,6 +198,8 @@ guiTypes = {
 						y = 420
 					}
 					scale = 0.45
+					pdx_tooltip = "rinko_text"
+					pdx_tooltip_delayed = "rinko_text_desc"
 				}
 				iconType = {
 					name = "offical_icon_ako"
@@ -169,6 +209,8 @@ guiTypes = {
 						y = 560
 					}
 					scale = 0.45
+					pdx_tooltip = "ako_text"
+					pdx_tooltip_delayed = "ako_text_desc"
 				}
 			}
 		
@@ -183,7 +225,7 @@ guiTypes = {
 				spriteType = "GFX_gui_apg_logo"
 				position = {
 					x = -6
-					y = 0
+					y = -10
 				}
 				scale = 0.45
 			}

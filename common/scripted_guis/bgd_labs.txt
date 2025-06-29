@@ -37,6 +37,17 @@ scripted_gui = {
     		    }
     		}
 
+			roselia_lab_desc_visible = {
+    		    check_variable = {
+    		        lab_window_show_var = 0
+    		    }
+    		}
+			ras_lab_desc_visible = {
+    		    check_variable = {
+    		        lab_window_show_var = 1
+    		    }
+    		}
+
 			#offical_window_ras_visible = {
 			#	check_variable = {
 			#		lab_window_show_var = 1

@@ -22,6 +22,7 @@ country_event = {
 		name = bdrlabs.1.a
 		add_stability = 5
 		add_political_power = 25
+		add_ideas = BGD_R_Shirakami_idea
 	}
 }
 
@@ -35,5 +36,6 @@ country_event = {
 		name = bdrlabs.2.a
 		add_stability = 5
 		add_political_power = 25
+		add_manpower = 1
 	}
 }
